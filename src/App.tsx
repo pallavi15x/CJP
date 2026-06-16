@@ -46,6 +46,7 @@ function App() {
             <ToastProvider>
               <HashRouter>
                 <ScrollToTop />
+                
                 <div className="min-h-screen bg-dark-bg">
                   <Navbar />
                   <div className="flex pt-16">
