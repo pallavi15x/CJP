@@ -8,7 +8,7 @@ A full-featured youth civic engagement web platform built with React + TypeScrip
 
 ## 🚀 Live Demo
 
-🔗 [https://pallavi15x.github.io/cjp](https://pallavi15x.github.io/cjp)
+🔗 [https://pallavi15x.github.io/CJP/](https://pallavi15x.github.io/CJP/)
 
 ---
 
@@ -56,7 +56,7 @@ A full-featured youth civic engagement web platform built with React + TypeScrip
 
 ```bash
 # Clone the repository
-git clone https://github.com/pallavi15x/cjp.git
+git clone https://github.com/pallavi15x/CJP.git
 cd cjp
 
 # Install dependencies
