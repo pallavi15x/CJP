@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { ThemeProvider, AuthProvider, CartProvider, DataProvider, ToastProvider } from './contexts';
 import Navbar from './components/Navbar';
@@ -44,7 +44,7 @@ function App() {
         <DataProvider>
           <CartProvider>
             <ToastProvider>
-              <BrowserRouter>
+              <HashRouter>
                 <ScrollToTop />
                 <div className="min-h-screen bg-dark-bg">
                   <Navbar />
@@ -96,7 +96,7 @@ function App() {
                   </div>
                   <ToastContainer />
                 </div>
-              </BrowserRouter>
+              </HashRouter>
             </ToastProvider>
           </CartProvider>
         </DataProvider>
